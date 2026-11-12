@@ -1,0 +1,60 @@
+{
+  "student_info": {
+    "name": "นายวชิระ เฟื่องสท้าน",
+    "role": "นักศึกษา"
+  },
+  "summary_cards": {
+    "credits": {
+      "min_credits": 124,
+      "enrolled_credits": 118,
+      "passed_credits": 99,
+      "pending_credits": 19,
+      "status": "FAIL"
+    },
+    "study_years": {
+      "max_years": 16,
+      "current_years": 4,
+      "current_year_level": 3,
+      "status": "PASS"
+    },
+    "gpa": {
+      "min_gpax": 2.00,
+      "gpax": 2.80,
+      "major_gpa": 0.00,
+      "status": "PASS"
+    },
+    "skill_exam": {
+      "computer_skill_status": "FAIL",
+      "language_skill_status": "FAIL",
+      "status": "FAIL"
+    }
+  },
+  "curriculum_structure": [
+    {
+      "code": "1",
+      "name": "หมวดวิชาศึกษาทั่วไป",
+      "required_credits": 30,
+      "subgroups": [
+        {
+          "code": "1.1",
+          "name": "กลุ่มวิชาภาษาและการสื่อสาร",
+          "required_credits": 9,
+          "items": [
+            {
+              "code": "1.1.1",
+              "name": "กลุ่มวิชาภาษาอังกฤษ",
+              "required_credits": 6,
+              "ca": 6,
+              "cs": 6,
+              "cw": null,
+              "cg": 6,
+              "pt": 12,
+              "gpa": 2.00,
+              "status": "PASS"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
